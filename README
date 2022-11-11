@@ -1,0 +1,13 @@
+Sarah Vasquez, Maggie Curiel
+
+
+Created Classes of Person,Thing,GPS, Time and Record which contained attributes of
+objects from Person, Thing, GPS, and Time
+
+Every class contained a dump2JSOn member function that would return the result
+of the json values 
+
+Pass the objects into the Record constructor and then call the dump2JSON() 
+function of all the record objects which would then call the dump2JSON() functions of the other classes to retireve the json values
+and print them to the screen. 
+
